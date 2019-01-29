@@ -8,3 +8,5 @@ include_recipe 'laptop::nvidia'
 
 package 'git'
 package 'bolt'
+
+include_recipe 'laptop::vscode'
