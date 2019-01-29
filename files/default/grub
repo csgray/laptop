@@ -1,0 +1,7 @@
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="resume=/dev/mapper/fedora-swap rd.lvm.lv=fedora/root rd.luks.uuid=luks-5ae3e379-c3f7-4e57-b913-6037412ce547 rd.lvm.lv=fedora/swap rhgb quiet rd.driver.blacklist=nouveau"
+GRUB_DISABLE_RECOVERY="true"
