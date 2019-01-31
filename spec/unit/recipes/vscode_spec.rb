@@ -18,6 +18,14 @@ describe 'laptop::vscode' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
+
+    it 'should install apt-transport-https' do
+      expect(chef_run).to install_package('apt-transport-https')
+    end
+
+    it 'should install code' do
+      expect(chef_run).to install_package('code')
+    end
   end
 
   context 'When all attributes are default, on CentOS 7.4.1708' do
@@ -30,6 +38,10 @@ describe 'laptop::vscode' do
 
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
+    end
+
+    it 'should install code' do
+      expect(chef_run).to install_package('code')
     end
   end
 end
