@@ -4,9 +4,9 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-include_recipe 'laptop::nvidia'
-
 package 'git'
 package 'bolt'
 
+include_recipe 'laptop::nvidia'
 include_recipe 'laptop::vscode'
+include_recipe 'laptop::backgrounds'
