@@ -17,3 +17,4 @@ end
 include_recipe 'laptop::nvidia'
 include_recipe 'laptop::vscode'
 include_recipe 'laptop::backgrounds'
+include_recipe 'laptop::aws_cli'
