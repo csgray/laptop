@@ -84,6 +84,46 @@ remote_file '/home/csgray/Pictures/FF14/ARealmReborn09.jpg' do
   action :create
 end
 
+remote_file '/home/csgray/Pictures/FF14/ARealmReborn10.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/4/b6T2QGBaE6IMCk1-I2RglGIR-w.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
+remote_file '/home/csgray/Pictures/FF14/ARealmReborn11.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/W/Q_AqCyeTDZJwwJjOcvf-Ervj78.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
+remote_file '/home/csgray/Pictures/FF14/ARealmReborn12.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/-/RMWURmhZc4hzRGjvaFG1ZWBlms.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
+remote_file '/home/csgray/Pictures/FF14/ARealmReborn13.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/d/IMtoGok_9VfD8hPAHcbtl1tqG4.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
+remote_file '/home/csgray/Pictures/FF14/ARealmReborn14.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/w/D-A4Eelq7vGBfOVwKjws4gpTZQ.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
 # Final Fantasy XIV: A Realm Reborn patch-specific backgrounds
 remote_file '/home/csgray/Pictures/FF14/ARealmAwoken01.jpg' do
   source 'https://img.finalfantasyxiv.com/lds/h/4/RGmM1Gbf-9ZPnaTdKohVIPO6KE.jpg'
@@ -181,155 +221,171 @@ remote_file '/home/csgray/Pictures/FF14/DefendersOfEorzea02.jpg' do
   action :create
 end
 
+remote_file '/home/csgray/Pictures/FF14/DreamsOfIce.jpg' do
+  source 'https://img.finalfantasyxiv.com/lds/h/P/E57TWvOO5pgSKbUZ3HIsF6irSI.jpg'
+  owner 'csgray'
+  group 'csgray'
+  mode '0755'
+  action :create
+end
+
+# remote_file '/home/csgray/Pictures/FF14/BeforeTheFall.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/l/Ja7JNcYi1Il0SxvQDboCTUeLR8.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
+
 # Final Fantasy XIV: A Realm Reborn anniversary backgrounds
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary01.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/-/SGqYV1zKxXQPF9Jol9ZynUJTyo.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary01.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/-/SGqYV1zKxXQPF9Jol9ZynUJTyo.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary02.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/_/8UFhHxA02QicLhNct8VcUC6LRA.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary02.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/_/8UFhHxA02QicLhNct8VcUC6LRA.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary03.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/5/omf_RX_MTk1Hv-PaRoQwNRCTOM.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary03.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/5/omf_RX_MTk1Hv-PaRoQwNRCTOM.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary04.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/b/1LcKfrXTKHt7oL4PR8qT_SUG2A.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary04.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/b/1LcKfrXTKHt7oL4PR8qT_SUG2A.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary05.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/W/PO06A8Q19rShi2-Q9M0YZIcOko.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary05.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/W/PO06A8Q19rShi2-Q9M0YZIcOko.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary06.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/S/Ad5-rOGrVJdCc0W-IcmbiXt6w8.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary06.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/S/Ad5-rOGrVJdCc0W-IcmbiXt6w8.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary07.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/a/VBBXHUhFm12VPBBEBtM_znnqNQ.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary07.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/a/VBBXHUhFm12VPBBEBtM_znnqNQ.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary08.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/_/uuKyB_GDxi05zddcpRiwG3IWkQ.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary08.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/_/uuKyB_GDxi05zddcpRiwG3IWkQ.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary09.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/3/P0oigJ1A2iOAPAq8M7OJUR-bJo.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary09.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/3/P0oigJ1A2iOAPAq8M7OJUR-bJo.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary10.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/y/AmZZcmNtesDf6PwJm0tQ8YOLzo.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary10.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/y/AmZZcmNtesDf6PwJm0tQ8YOLzo.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary11.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/N/Al4Rave8fTisrx_QUo8jNjcBns.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary11.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/N/Al4Rave8fTisrx_QUo8jNjcBns.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary12.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/w/Dj58_xkOpEhu6Z_i0Ey_IPLIE0.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary12.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/w/Dj58_xkOpEhu6Z_i0Ey_IPLIE0.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary13.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/X/GPCsx3gzuZcRcP2pNrQxEsCnWE.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary13.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/X/GPCsx3gzuZcRcP2pNrQxEsCnWE.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary14.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/4/F86ze-OKLMU3WcpQxw3xggMbsk.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary14.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/4/F86ze-OKLMU3WcpQxw3xggMbsk.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary15.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/3/tQxPH7wo7fxFzc5Zov-oofT86I.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary15.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/3/tQxPH7wo7fxFzc5Zov-oofT86I.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary16.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/Z/AyMCyI1N5BE7i_-MDPXrujDc7o.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary16.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/Z/AyMCyI1N5BE7i_-MDPXrujDc7o.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary17.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/k/EP6-E5JRozd0rbA9JtnHDtgY80.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary17.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/k/EP6-E5JRozd0rbA9JtnHDtgY80.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary18.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/G/FdU41q2WaNNcurQTEzwZVcfBgg.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary18.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/G/FdU41q2WaNNcurQTEzwZVcfBgg.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
 
-remote_file '/home/csgray/Pictures/FF14/FirstAnniversary19.jpg' do
-  source 'https://img.finalfantasyxiv.com/lds/h/T/qLC1IvyPVh45Sim5YMAKYhWrFU.jpg'
-  owner 'csgray'
-  group 'csgray'
-  mode '0755'
-  action :create
-end
+# remote_file '/home/csgray/Pictures/FF14/FirstAnniversary19.jpg' do
+#   source 'https://img.finalfantasyxiv.com/lds/h/T/qLC1IvyPVh45Sim5YMAKYhWrFU.jpg'
+#   owner 'csgray'
+#   group 'csgray'
+#   mode '0755'
+#   action :create
+# end
