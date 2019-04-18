@@ -6,6 +6,7 @@
 
 package 'git'
 package 'bolt'
+package 'ruby'
 
 cookbook_file '/home/csgray/.bashrc' do
   source 'bashrc'
