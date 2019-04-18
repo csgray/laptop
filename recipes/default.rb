@@ -6,7 +6,10 @@
 
 package 'git'
 package 'bolt'
-package 'ruby'
+
+package 'redhat-rpm-config' do
+  only_if { platform_family?('fedora') }
+end
 
 cookbook_file '/home/csgray/.bashrc' do
   source 'bashrc'

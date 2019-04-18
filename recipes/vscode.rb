@@ -24,4 +24,5 @@ package 'apt-transport-https' do
   only_if { platform_family?('debian') }
 end
 
-package 'code'
+package %w(code ruby ruby-devel)
+gem_package 'rubocop'
